@@ -1,0 +1,64 @@
+{
+  "manifestVersion": "3.2",
+  "impls": {
+    "df533cf8307ebfa1f0d2394f9bcb7f6765fd4e72dfb403c141d5e2ab91d9a5dc": {
+      "address": "0xe3b5eB7b91CD91dd20DDa0c402bfa1F452c7fcc6",
+      "txHash": "0x0fd66975b28e245ecfbde237771c79ea4cd2af8e3ea0381ca1a1a8f2be14f0f6",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\D\\blockchain\\ethereum\\projects\\upgradable\\contracts\\box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "d82f50139ec733f3f9760a3679378622550a8e196d08234acaf1fca939ebd387": {
+      "address": "0x51E426c6666A39A4d60173354eFe639d0ff50add",
+      "txHash": "0xea51721a095775cbc33763e93b0a2fa10ddae4ce6f8af6b5e8ca5d7dd741db04",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\D\\blockchain\\ethereum\\projects\\upgradable\\contracts\\boxv2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  },
+  "proxies": [
+    {
+      "address": "0xfbdb4686770fDE54eFe950e4A757D63DcBa39544",
+      "kind": "transparent",
+      "txHash": "0xdf719ed25e6a4a1d65946853a3d6563f2daaa2618ceac05f72ebe1ff31505327"
+    },
+    {
+      "address": "0x2848b7AE12d9f2b55D273170f571781d0932843f",
+      "kind": "transparent",
+      "txHash": "0x8cdff461d03bbea1cb2373235a6a750138290e761211b63d5597e594cdae01cb"
+    },
+    {
+      "address": "0x17f5c821649606f35AE4120df0b394b2381a1849",
+      "kind": "transparent",
+      "txHash": "0x9b77432c9a1634699244e47773a51167934ac322f2c9cc53d3b3cd3e6d176707"
+    }
+  ],
+  "admin": {
+    "address": "0x2E4F0C304d4A1b86d1d6208Ef85e4a8B39A04Ec0",
+    "txHash": "0xd75eb61ba6cda7aad2a2a2cb9405eaee79377123cd6d7b5941abd7fc0932749c"
+  }
+}
